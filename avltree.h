@@ -19,4 +19,3 @@ avlnode* avlinsert(avlnode* root, int key);
 bool avlexists(avlnode* root, int key);
 
 #endif //AVLTREE_H
-
