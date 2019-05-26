@@ -63,7 +63,7 @@ bool basetest(unsigned int(* f)(int*, unsigned int, int*, unsigned int)) {
 
 // random test
 
-const int bound = 1000000;
+const int bound = 100000;
 std::vector<int> base; // base for random arrays
 
 void init_base() {
