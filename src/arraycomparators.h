@@ -25,7 +25,7 @@ unsigned int comparebysort(int arr1[], unsigned int size1, int arr2[], unsigned 
  *
  *  @return number of common elements in arrays.
  **/
-unsigned int comparebysort(unsigned int arr1[], unsigned int size1, unsigned int arr2[], unsigned int size2);
+unsigned int comparebysortu(unsigned int* arr1, unsigned int size1, unsigned int* arr2, unsigned int size2);
 
 
 /** Array comparison by balanced search tree (AVL).
@@ -36,4 +36,3 @@ unsigned int comparebysort(unsigned int arr1[], unsigned int size1, unsigned int
 unsigned int comparebyavl(const int arr1[], unsigned int size1, const int arr2[], unsigned int size2);
 
 #endif //ARRAYCOMPARATORS_H
-

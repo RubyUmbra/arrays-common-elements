@@ -18,10 +18,10 @@ unsigned int compareslow(const int arr1[], unsigned int size1, const int arr2[],
 
 
 unsigned int comparebysort(int arr1[], unsigned int size1, int arr2[], unsigned int size2) {
-    return comparebysort((unsigned int*) arr1, size1, (unsigned int*) arr2, size2);
+    return comparebysortu((unsigned int*) arr1, size1, (unsigned int*) arr2, size2);
 }
 
-unsigned int comparebysort(unsigned int arr1[], unsigned int size1, unsigned int arr2[], unsigned int size2) {
+unsigned int comparebysortu(unsigned int* arr1, unsigned int size1, unsigned int* arr2, unsigned int size2) {
     radixsort(arr1, size1);
     radixsort(arr2, size2);
 
@@ -60,4 +60,3 @@ unsigned int comparebyavl(const int arr1[], unsigned int size1, const int arr2[]
     }
     return res;
 }
-
